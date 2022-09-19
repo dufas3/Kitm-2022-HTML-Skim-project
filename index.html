@@ -5,10 +5,10 @@
 		<title>KITM projektas</title>
 	</head>
 	<body>
-		<div class="container">
+		<div class="Pradinis headeris">
 			<header>
 				<div class="logo">
-					<img src="img\logo.png" alt="logo">
+					<img src="img\logo.png" alt="logo" width="500">
 				</div>
 				<nav class="header kategorijos">
 					<ul>
@@ -17,9 +17,12 @@
 						<li><a href="#">Kontaktai</a></li>
 					</ul>
 				</nav>
-				<!-- search bar here 
-					put below in main-->
+				<form id="paieska">
+					<input type="search" placeholder="Paieska">
+					<button>Ieškoti</button>
+				</form>
 			</header>
+		</div>
 			<main>
 				<nav class="kategorijos">
 					<ul>
@@ -30,29 +33,106 @@
 						<li><a href="#">Straipsniai</a></li>
 					</ul>	
 				</nav>
-				<nav class="reklama">
-					<img src="img/reklama1.jpg" alt="LSA reklama">
-					<a href="#">Tapkite LSA nariu</a>
-				</nav>
-				<h3>Artimiausi renginiai</h3>
-				<a href="#">Visi renginiai</a>
-					<ul class="renginiai">
-							<li><a href="#">Renginys vienas</a></li>
-							<li><a href="#">Renginys du</a></li>
-							<li><a href="#">Renginys trys</a></li>
-							<li><a href="#">Renginys keturi</a></li>
+					<div class="reklama">
+						<img src="img/reklama1.jpg" alt="LSA reklama" width="400">
+					</div>
+				<div class="Artimiausi Renginiai">
+					<header>
+						<h3>Artimiausi renginiai</h3>
+						<a href="#">Visi renginiai</a>
+					</header>
+						<ul class="renginiai">
+								<li><a href="#">Renginys vienas</a></li>
+								<li><a href="#">Renginys du</a></li>
+								<li><a href="#">Renginys trys</a></li>
+								<li><a href="#">Renginys keturi</a></li>
+						</ul>
+					<a href="#">Registruotis į renginį</a>
+				</div>
+				<header>
+					<h2>Naujienos</h2>
+					<a href="#">Naujienų archivas</a>
+				</header>
+				<div class="Visos Naujienos">
+					<article class="pirma naujiena">
+						<h2>Pirma naujiena</h2>
+						<h3>2022-09-22</h3>
+						<img src="img/naujiena1.jpg" alt="Naujiena pirma" width="250">
+						<p>Aš esu tekstas temp tekstas ignoruok mane lalalalalalalalalalala labai tingiu į LT shift+alt spaust sorry už gramatikos klaidas :( Sitas </p>
+						<a href="#">Skaityk Toliau...</a>
+					</article>
+					<article class="Antra Naujiena">
+						<h2>Antra Naujiena</h2>
+						<h3>2022-09-21</h3>
+						<video controls width="250">
+							<source src="vid/Naujiena2.mp4" type="video/mp4">
+								Atsiprašome, jūsų įrankis nepriima video 
+						</video>
+					</article>
+					<article class="trecia naujiena">
+						<h2>Trečia Naujiena</h2>
+						<h3>2022-09-20</h3>
+						<p>Aš esu tekstas lalalalalalalalalalal go brrrrrrrrrrrrrrrrrrrrrrrrr</p>
+						<a href="#">Skaityk Toliau...</a>
+					</article>
+					<article class="ketvirta naujiena">
+						<h2>Ketvirta Naujiena</h2>
+						<h3>2022-09-19</h3>
+						<img src="img/naujiena4.jpg" width="250" alt="Ketvirta naujienos fotke">
+						<p>Laba diena, as visgi vel esu tekstas hahahahahaha</p>
+					</article>
+				</div>
+				<nav class="Naujienu puslapis">
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
 					</ul>
-				<a href="#">Registruotis į renginį</a>
-				<h2>Naujienos</h2>
-				<a href="#">Naujienų archivas</a>
-				<article class="apie pirma naujiena">
-					<h2>Pirma naujiena</h2>
-					<h3>2022-09-22</h3>
-					<img src="img/naujiena1.jpg" alt="Naujiena pirma">
-					<p>Aš esu tekstas temp tekstas ignoruok mane lalalalalalalalalalala labai tingiu į LT shift+alt spaust sorry už gramatikos klaidas :( Sitas </p>
-					<a href="#">Skaityk Toliau...</a>
-				</article>
+				</nav>
 			</main>
-		</div>
+			<div class="Nuotraukos">
+				<header>
+					<h2>Nuotrauku galerija</h2>
+					<a href="#">Archyvas</a>
+				</header>
+				<img src="img/nuotrauka1.jpg" alt="Pirma nuotrauka" width="250">
+				<img src="img/nuotrauka2.jpg" alt="Antra Nuotrauka" width="250">
+				<img src="img/nuotrauka3.jpg" alt="Trecia nuotrauka" width="250">
+				<img src="img/nuotrauka4.jpg" alt="Ketvirta Nuotrauka" width="250">
+			</div>
+			<div class="bendrikai">
+				<header>
+					<h2>Bendradarbiaujiame</h2>
+				</header>
+				<img src="img/bendradarbis1.jpg" alt="Sega logo" width="250">
+				<img src="img/bendradarbis2.png" alt="Nintendo logo" width="250">
+				<img src="img/bendradarbis3.jpg" alt="Sony logo" width="250">
+				<img src="img/bendradarbis4.jpg" alt="Microsoft logo" width="250">
+				<img src="img/bendradarbis5.jpg" alt="Dreamcast logo" width="250">
+				<img src="img/bendradarbis6.png" alt="Maxima logo" width="250">
+				<img src="img/bendradarbis7.png" alt="Google logo" width="250">
+				<img src="img/bendradarbis8.png" alt="Samsung logo" width="250">
+			</div>
+			<div class="Nuorodos">
+				<header>
+					<h2>Naudingos nuorodos</h2>
+				</header>
+				<ul>
+					<li><a href="#">Naudina Nuoroda 1</a></li>
+					<li><a href="#">Naudina Nuoroda 2</a></li>
+					<li><a href="#">Naudina Nuoroda 3</a></li>
+					<li><a href="#">Naudina Nuoroda 4</a></li>
+					<li><a href="#">Naudina Nuoroda 5</a></li>
+					<li><a href="#">Naudina Nuoroda 6</a></li>
+					<li><a href="#">Naudina Nuoroda 7</a></li>
+					<li><a href="#">Naudina Nuoroda 8</a></li>
+				</ul>
+			</div>
+			<footer>
+				<h4>2015 m. Lietuvos suzuki asosiacija</h4>
+				<h4>Vaistines skg.6,<br>Kaunas LT-44210</h4>
+			</footer>
 	</body>
 </html>
